@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jules Katzenblog</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body onload="start()">
+
+	<div class="container">
+	<header class="header text-white bg-success mb-3 p-4">
+		<h2>Jules Katzenblog</h2>
+	</header>
+		<div class="card card-body mb-3">
+			<form id="inputForm" class="form-inline">
+
+				<div class="form-group">
+					<input type="text" class="form-control mr-4" id="catName" placeholder="enter cat name">
+				</div>
+
+				<div class="from-group">
+					<button class="btn btn-primary" type="submit">save</button> 
+				</div>	
+
+			</form>
+		</div>
+		<div id="list-container" class="card">
+			<ul id="catList" class="list-inline" >
+				<li class="list-inline-item col-3 m-3">
+					<div class="card p-2">
+							<img src="images/cats/cat1.jpg" class="img-thumbnail">
+								<div class="card-body">
+									<h2 class="card-title">süß</h2>
+									<p class="card-text">lorum ipsum</p>
+								</div>
+					</div>
+				</li>
+				<li class="list-inline-item col-3 m-3">
+					<div class="card p-2">
+							<img src="images/cats/cat2.jpg" class="img-thumbnail">
+								<div class="card-body">
+									<h2 class="card-title">süß</h2>
+									<p class="card-text">lorum ipsum</p>
+								</div>
+					</div>
+				</li>
+				<li class="list-inline-item col-3 m-3">
+					<div class="card p-2">
+							<img src="images/cats/cat3.jpg" class="img-thumbnail">
+								<div class="card-body">
+									<h2 class="card-title">süß</h2>
+									<p class="card-text">lorum ipsum</p>
+								</div>
+					</div>
+				</li>
+				<li class="list-inline-item col-3 m-3">
+					<div class="card p-2">
+							<img src="images/cats/cat4.jpg" class="img-thumbnail">
+								<div class="card-body">
+									<h2 class="card-title">süß</h2>
+									<p class="card-text">lorum ipsum</p>
+								</div>
+					</div>
+				</li>
+				<li class="list-inline-item col-3 m-3">
+					<div class="card p-2">
+							<img src="images/cats/cat5.jpg" class="img-thumbnail">
+								<div class="card-body">
+									<h2 class="card-title">süß</h2>
+									<p class="card-text">lorum ipsum</p>
+								</div>
+					</div>
+				</li>	
+			</ul>	
+		</div>
+
+
+		<div id="newCatModal" class="modal fade" aria-labelledby="label" role="dialog" tabindex="-1" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="label">add cute cat</h5>
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close" >
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<input type="text" id="catName" placeholder="enter cat's name">
+							</div>
+							<div class="form-group">
+								<input type="text" id="catDescription" placeholder="enter cat's description">
+							</div>
+
+						</form>
+					</div>
+					<div class="modal-footer">
+
+					</div>
+					
+				</div>
+				
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

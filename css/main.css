@@ -1,0 +1,13 @@
+#catList .card{
+	height:350px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#catList img{
+	height:150px;
+}
+
+#list-container{
+	background-color: rgba(211,211,211,0.25);
+}
+
