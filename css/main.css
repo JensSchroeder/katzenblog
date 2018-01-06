@@ -16,3 +16,7 @@
 #catList img:hover{
 	opacity: 0.80;
 }
+
+.header {
+	background-color: pink;
+}
